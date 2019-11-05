@@ -20,6 +20,7 @@ namespace GameTester
         private void Form1_Load(object sender, EventArgs e)
         {
             // add text to the nonvisible label
+            // could do this dynamicly
             lblForDynamicItems.Text = "These were built during runtime";
             //Make a textbox
             TextBox aTextBox = new TextBox();               // instantiate a textbox
